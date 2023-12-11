@@ -129,7 +129,7 @@ DynamicParam {
     keyVaultName = '^(?=^.{3,24}$)(?!.*--)([a-zA-Z][a-zA-Z0-9-]*[a-zA-Z0-9])$'
     workspaceName = '^(?=^.{4,63}$)([a-zA-Z0-9][a-zA-Z0-9-]*[a-zA-Z0-9])$'
     managedIdentityName = '^(?=^.{3,128}$)([a-zA-Z0-9][a-zA-Z0-9-_]*)$'
-    resourceGroupName = '^(?=^.{1,90}$)(?!.*\.$)([a-zA-Z0-9-_\.\p{L}\p{N}]*)$'
+    resourceGroupName = 'rg-ipam-management-westeurope'
     storageAccountName = '^(?=^.{3,24}$)([a-z0-9]*)$'
     containerRegistryName = '^(?=^.{5,50}$)([a-zA-Z0-9]*)$'
   }
